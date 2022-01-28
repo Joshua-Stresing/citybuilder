@@ -41,8 +41,8 @@ main {
 
 .parent {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(1fr);
     grid-column-gap: 25px;
     grid-row-gap: 10px;
     }
@@ -50,7 +50,7 @@ main {
     .div1 { grid-area: 1 / 2 / 3 / 4; }
     .div2 { grid-area: 1 / 4 / 3 / 6; }
     .div3 { grid-area: 1 / 6 / 3 / 8; }
-    .div4 { grid-area: 3 / 3 / 4 / 7; }
+    .div4 { grid-area: 1 / 8 / 2 / 10; }
 
 
 section {
