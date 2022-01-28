@@ -14,6 +14,23 @@ let worldCounter = 0;
 let terrainCounter = 0; 
 
 // set event listeners 
+raceSelect.addEventListener('change', (e) =>{
+    const value = e.target.value;
+    raceImage.src = `./assets/race-${value}.jpg`;
+    raceCounter++;
+});
+
+worldSelect.addEventListener('change', (e) =>{
+    const value = e.target.value;
+    worldImage.src = `./assets/world-${value}.jpg`;
+    raceCounter++;
+});
+
+terrainSelect.addEventListener('change', (e) =>{
+    const value = e.target.value;
+    terrainImage.src = `./assets/terrain-${value}.jpg`;
+    raceCounter++;
+});
 
 
   // get user input
