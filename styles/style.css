@@ -42,15 +42,15 @@ main {
 .parent {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 25px;
     grid-row-gap: 10px;
     }
     
-    .div1 { grid-area: 1 / 2 / 6 / 4; }
-    .div2 { grid-area: 1 / 4 / 6 / 6; }
-    .div3 { grid-area: 1 / 6 / 6 / 8; }
-    .div4 { grid-area: 6 / 3 / 7 / 7; }
+    .div1 { grid-area: 1 / 2 / 3 / 4; }
+    .div2 { grid-area: 1 / 4 / 3 / 6; }
+    .div3 { grid-area: 1 / 6 / 3 / 8; }
+    .div4 { grid-area: 3 / 3 / 4 / 7; }
 
 
 section {
