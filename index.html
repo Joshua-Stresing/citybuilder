@@ -12,56 +12,72 @@
     <title>Document</title>
 </head>
 
+
 <body>
+<script>
+       function changeBackgroundImage() {
+        document.body.style.backgroundImage = "url('assets/parchment.jpg')";
+        document.body.style.backgroundRepeat = "no-repeat";
+        document.body.style.backgroundSize = "cover";
+      }     
+      document.addEventListener("DOMContentLoaded", changeBackgroundImage());
+      </script>
     <header>
         <div class="gutter-right logo">
             <img src="./assets/big-logo.png" />
         </div>
     </header>
     <main>
-        <section class="main-section">
-            <img class="main-logo" src="./assets/alchemy-logo.png" />
-            <h2>
-                Welcome to Alchemy Bootstrap!
-            </h2>
-
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur
-                voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos
-                praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores
-                provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente
-                excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil
-                inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi
-                reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit
-                possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis
-                ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa
-                praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis
-                exercitationem?
-            </p>
-            <hr />
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur
-                voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos
-                praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores
-                provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente
-                excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil
-                inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi
-                reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit
-                possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis
-                ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa
-                praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis
-                exercitationem?
-            </p>
-
-        </section>
+        <h1>D and D World Builder!</h1>
+        <div class="parent">
+            <div class="div1">
+                    <div class="select">
+                        <select id="race-select">
+                            <option value="human">Human</option>
+                            <option value="elf">Elf</option>
+                            <option value="dwarf">Dwarf</option>
+                            <option value="halforc">Half-Orc</option>  
+                            <option value="dragonborn">Dragonborn</option>  
+                        </select>
+                    </div>       
+                    <img id="race-img" class=ri>
+                </div>
+                    <div class="div2">
+                        <div class="select">
+                            <select id="world-select">
+                                <option value="toril">Toril</option>
+                                <option value="eberron">Eberon</option>
+                                <option value="oerth">Oerth</option>                  
+                            </select>
+                        </div>
+                        <img id="world-img" class=wi>
+                    </div>
+                <div class="div3">
+                    <div class="select">
+                        <select id="terrain-select">
+                            <option value="plains">Plains</option>
+                            <option value="forest">Forest</option>
+                            <option value="desert">Desert</option>
+                            <option value="volcanic">Volcanic</option>                    
+                            <option value="underwater">Underwater</option>                    
+                        </select>
+                    </div>
+                    <img id="terrain-img" class=ti>
+                </div>
+                <div class="div4">
+                    <div class="solid">
+                    <p id='stat-report'>You have chosen races 0 times, 0 different worlds, and 0 different terrains. And you came up with the caption(s):</p>
+                    <section class="slogan">
+                        <h3 class="solid">Caption For Your Fantasy Life</h3>
+                        <input id=slogani>
+                        <button id=sloganb>Add</button>
+                        <div id=sloganl>
+                            <p></p>                            
+                        </div>
+                    </section>
+                </div>
+                </div>                
+            </div>
     </main>
     <footer>
         <div class="copy gutter-right">&copy; 2021 Alchemy Code Lab</div>
@@ -71,3 +87,4 @@
 </body>
 
 </html>
+// nonsense comment

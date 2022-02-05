@@ -1,1 +1,39 @@
-/* add home page styles here */
+add home page styles here
+
+img {
+   height: 450px;
+    max-width: 100%;
+    display: inside;
+    flex-direction: column;
+    align-items: center;
+    align-content:center ;
+    justify-content: flex-end;
+}
+.ti {
+    height: 450px;
+    max-width: 100%;
+    display: inside;
+    flex-direction: column;
+    align-items: center;
+    align-content:center ;
+    justify-content: flex-end;
+}
+.wi {
+    height: 450px;
+    max-width: 100%;
+    display: inside;
+    flex-direction: column;
+    align-items: center;
+    align-content:center ;
+    justify-content: flex-end;
+}
+.ri {
+    height: 450px;
+    max-width: 100%;
+    display: inside;
+    flex-direction: column;
+    align-items: center;
+    align-content:center ;
+    justify-content: flex-end;
+}
+
