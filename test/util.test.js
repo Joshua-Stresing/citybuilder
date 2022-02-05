@@ -5,9 +5,9 @@ import { makeStatsString } from '../util.js';
 const test = QUnit.test;
 
 test('Testing Slogans', (expect)=> {
-    const string = `You have decided on human races, toril different worlds, and plains different terrains. And you came up with the caption(s):`;
+    const string = `You have chosen races 0 times, 0 different worlds, and 0 different terrains. And you came up with the caption(s):`;
 
-    const actual = makeStatsString('human', 'toril', 'plains');
+    const actual = makeStatsString('0', '0', '0');
 
     expect.equal(actual, string);
 });
